@@ -42,3 +42,10 @@ def skin():
     os.system('wget --warc-file="smwstuff-api" --post-data="cmd=alloftype&arg=map" http://smwstuff.net/api')
     a = os.system("""zsh -c "source ~/gs-venv/bin/activate && grab-site --delay 1-50 -i images" """)
     print(a)
+
+def world():
+    return "Sorry! There are no worlds hosted on the site, so I cannot reverse-engineer the API."
+announcer = world
+music = world
+gpack = world
+sfx = world
