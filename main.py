@@ -20,7 +20,7 @@ def map():
         images_str += "\n"
     with open("images", "w+") as file:
         file.write(images_str)
-    os.system('wget --warc-file="smwstuff-api" --post-data="cmd=alloftype&arg=map" http://smwstuff.net/api')
+    os.system('wget --warc-file="smwstuff-api-map" --post-data="cmd=alloftype&arg=map" http://smwstuff.net/api')
     a = os.system("""zsh -c "source ~/gs-venv/bin/activate && grab-site --delay 1-50 -i images" """)
     print(a)
 
@@ -39,7 +39,7 @@ def skin():
         images_str += "\n"
     with open("images", "w+") as file:
         file.write(images_str)
-    os.system('wget --warc-file="smwstuff-api" --post-data="cmd=alloftype&arg=map" http://smwstuff.net/api')
+    os.system('wget --warc-file="smwstuff-api-skin" --post-data="cmd=alloftype&arg=skin" http://smwstuff.net/api')
     a = os.system("""zsh -c "source ~/gs-venv/bin/activate && grab-site --delay 1-50 -i images" """)
     print(a)
 
