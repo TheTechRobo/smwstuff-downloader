@@ -1,4 +1,8 @@
 # smwstuff-downloader
+## THIS IS NOT IN A USABLE STATE
+
+Feel free to analyse the code, but it needs a rewrite before it can be used in prod.
+
 Download data from smwstuff.net
 
 Licenced under the Apache Licence - copyright 2021 TheTechRobo
